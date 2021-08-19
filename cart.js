@@ -192,7 +192,7 @@ var cart = {
       var total = 0;
       for (let id in cart.items) {
         total += cart.items[id] * products[id].price;
-        document.getElementById("c-total").innerHTML ="TOTAL: $" + total;
+        document.getElementById("c-total").innerHTML ="TOTAL: R" + total;
       }
     }
   },
